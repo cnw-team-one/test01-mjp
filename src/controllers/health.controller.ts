@@ -4,7 +4,7 @@ import {GET, Path} from 'typescript-rest';
 export class HealthController {
 
   @GET
-  async healthCheck(): Promise<{status: string;}> {
+  async healthCheck(): Promise<{status: string, message: string;}> {
     return {
       status: 'UP',
       message: 'App is up and running with TechZone Automation'
