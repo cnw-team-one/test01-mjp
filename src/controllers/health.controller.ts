@@ -6,7 +6,7 @@ export class HealthController {
   @GET
   async healthCheck(): Promise<{status: string;}> {
     return {
-      status: 'UP'
+      status: 'Hi I am UP from TechZone Automation'
     };
   }
 }
