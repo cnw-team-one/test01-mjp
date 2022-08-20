@@ -13,7 +13,7 @@ export class HelloWorldService implements HelloWorldApi {
   }
 
   async greeting(name: string = 'World'): Promise<string> {
-    this.logger.info(`Generating greeting for ${name}`);
+    this.logger.info(`Generating greeting for ${name} from TechZone Automation`);
     return `Hello, ${name}!`;
   }
 }
